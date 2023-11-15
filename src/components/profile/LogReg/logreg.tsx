@@ -3,10 +3,12 @@ import './LogReg.css';
 import userImg from './Assets/person.png';
 import passwordImg from './Assets/password.png';
 import emailImg from './Assets/email.png';
+import { Route, BrowserRouter as Router, Routes, Link } from 'react-router-dom';
 export function LogReg() {
 	const [action, setAction] = useState('Sign Up');
 	return (
 		<>
+		<Link to="/"><button className='goBack'>Go to home page</button></Link>
 			<div className="container">
 				<div className="header">
 					<div className="text">{action}</div>
