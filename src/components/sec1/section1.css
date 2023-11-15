@@ -1,0 +1,55 @@
+.sec1 {
+ width: 100%;
+ height: calc(100vh - 100px);
+ display: flex;
+ justify-content: center;
+ background-color: #92d3cb;
+}
+
+.textLemonade {
+ width: 50%;
+ /* background-color: #3d946c; */
+ padding: 150px 0px 0px 100px;
+}
+
+.sec1 img {
+ width: 50%;
+ object-fit: cover;
+}
+
+.sec1 h2 {
+ color: #3d946c;
+ font-size: 42px
+}
+
+.sec1 p {
+ font-family: sans-serif;
+ color: #67ba9a;
+ text-transform: capitalize;
+ font-size: 24px;
+ padding: 20px 0px 70px 0px;
+}
+
+.sec1 p span {
+ color: #efbd26;
+}
+
+.sec1 button {
+ background-color: #3d946c;
+ border: 0px;
+ padding: 10px 20px;
+ border-radius: 10px;
+ color: #efbd26;
+ font-size: 18px;
+ cursor: pointer;
+ transition: 0.3s;
+}
+
+.sec1 button:hover {
+ background-color: #efbd26;
+ color: #3d946c;
+}
+
+.sec1 button:active {
+ transform: scale(0.95);
+}
