@@ -14,7 +14,7 @@ class Header extends Component {
 					<li>Menu</li>
 					<li>Products</li>
 				</ul>
-				<span className='NavBarBtns'>
+				<span className="NavBarBtns">
 					<button className="">
 						<CartBtn />
 						Cart
