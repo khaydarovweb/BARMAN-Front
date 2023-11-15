@@ -1,9 +1,10 @@
 import React from 'react';
+
 import { Header } from './components/header';
 import { default as Sec1 } from './components/sec1/section1';
 import { default as Sec2 } from './components/sec2/section2';
 import { default as Sec3 } from './components/sec3/section3';
-
+import { LogReg } from './components/header/LogReg/logreg'
 function App() {
 	return (
 		<main className="Main">
@@ -11,6 +12,7 @@ function App() {
 			<Sec1 />
 			<Sec2 />
 			<Sec3 />
+			{/* <LogReg/> */}
 		</main>
 	);
 }

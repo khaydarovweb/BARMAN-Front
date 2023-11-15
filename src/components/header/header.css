@@ -28,7 +28,10 @@ li {
  cursor: pointer;
  transition: 0.3s;
 }
-
+a{ 
+    text-decoration: none;
+    color: #005eb8;
+}
 li:active {
  transform: scale(0.95);
 }

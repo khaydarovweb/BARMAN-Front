@@ -1,7 +1,7 @@
-import React, { Component } from 'react';
+import React from 'react';
 import './section1.css';
 
-export default class Sec1 extends Component {
+export default class Sec1 extends React.Component {
 	render() {
 		return (
 			<section className="sec1">
