@@ -23,7 +23,7 @@ class Header extends Component {
 				<span className="NavBarBtns">
 					<button className="">
 						<CartBtn />
-						Cart
+						<Link to="/cart">Cart</Link>
 					</button>
 					<button className="">
 						<ProfileBtn />
