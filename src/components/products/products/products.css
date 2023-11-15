@@ -1,0 +1,20 @@
+.Products {
+ width: 100%;
+ height: 115vh;
+ margin: 20px;
+ display: flex;
+ flex-wrap: wrap;
+ gap: 30px;
+ overflow-y: scroll;
+}
+
+.Products::-webkit-scrollbar {
+ background-color: #fff;
+ width: 10px;
+ border-radius: 50px;
+}
+
+.Products::-webkit-scrollbar-thumb {
+ background-color: #005eb8;
+ border-radius: 50px;
+}
