@@ -1,10 +1,9 @@
 import React, { Component } from 'react';
 import './header.css';
 import { default as CartBtn } from './cartIcon/cart';
-import { default as ProfileBtn } from './perofileIcon/profile';
+import { default as  ProfileBtn} from './perofileIcon/profile';
 import { LogoNoBg } from '../../imgs/index';
-import { Link } from 'react-router-dom';
-
+import {Routes , Route , Link } from 'react-router-dom';
 class Header extends Component {
 	render() {
 		return (
@@ -28,12 +27,13 @@ class Header extends Component {
 					</button>
 					<button className="">
 						<ProfileBtn />
-						Profile
+						<Link to="/profile">Profile</Link>
 					</button>
 				</span>
 			</header>
 		);
 	}
+
 }
 
 export default Header;

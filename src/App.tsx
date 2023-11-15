@@ -1,16 +1,8 @@
 import React from 'react';
 import { default as HomePage } from './components/home/index';
 import { default as ProductsPage } from './components/products/main';
+import { LogReg } from './components/header/LogReg/logreg';
 import { Route, BrowserRouter as Router, Routes } from 'react-router-dom';
-
-// const router = createBrowserRouter(
-//   createRoutesFromElements(
-//     <Route path="/" element={<HomePage />}>
-//       <Route index element={<ProductsPage />} />
-//       <Route path="/products" element={<ProductsPage />} />
-//     </Route>
-//   )
-// );
 
 function App() {
 	return (
@@ -19,6 +11,7 @@ function App() {
 				  <Route path="/" element={<HomePage />} />
 					<Route index element={<HomePage />} />
 					<Route path="/products" element={<ProductsPage />} />
+					<Route path="/profile" element={<LogReg />} />
 			</Routes>
 		</Router>
 	);
