@@ -1,14 +1,14 @@
-import React, { Component, useState } from 'react';
+import React, { useState } from 'react';
 import './LogReg.css';
 import userImg from './Assets/person.png';
 import passwordImg from './Assets/password.png';
 import emailImg from './Assets/email.png';
-import { default as Header } from "../home/header";
+import { default as Header } from '../header/header';
 export function LogReg() {
 	const [action, setAction] = useState('Sign Up');
 	return (
 		<>
-			<Header/>
+			<Header />
 			<main>
 				<div className="container">
 					<div className="header">

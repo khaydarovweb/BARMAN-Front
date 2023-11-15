@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './main.css';
 import { Sidebar } from './sideBar/category';
-import { default as Header } from '../home/header';
+import { default as Header } from '../header/header';
 
 export default class Main extends Component {
 	render() {

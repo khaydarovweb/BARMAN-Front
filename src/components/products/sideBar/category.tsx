@@ -1,4 +1,4 @@
-import React, { Component, useState } from 'react';
+import React, { useState } from 'react';
 import './category.css';
 
 export const Sidebar = () => {
@@ -13,6 +13,7 @@ export const Sidebar = () => {
 			<div className="Category">
 				<h2>Category</h2>
 				<ul>
+					<li>All</li>
 					<li>Energy Drink</li>
 					<li>Healthy Drink</li>
 					<li>Water</li>
@@ -23,6 +24,7 @@ export const Sidebar = () => {
 			<div className="FilterColors">
 				<h2>Colors</h2>
 				<ul className="colorsLi">
+					<p>All</p>
 					<li className="ColorWhite" />
 					<li className="ColorYellow" />
 					<li className="ColorGreen" />

@@ -1,4 +1,4 @@
-import { default as Header } from './header';
+import { default as Header } from '../header/header';
 import { default as Sec1 } from './section1';
 import { default as Sec2 } from './section2';
 import { default as Sec3 } from './section3';

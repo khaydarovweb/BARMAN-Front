@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
-import { default as Header } from '../home/header';
+import { default as Header } from '../header/header';
 
 export default class CartPage extends Component {
 	render() {

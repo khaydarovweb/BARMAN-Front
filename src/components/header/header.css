@@ -15,7 +15,7 @@ header {
  object-fit: contain;
 }
 
-ul {
+header ul {
  display: flex;
  align-items: center;
  gap: 30px;
@@ -24,15 +24,19 @@ ul {
  font-size: 18px;
 }
 
-li {
+header .link {
+    padding-top: 20px;
+}
+
+header li {
  cursor: pointer;
  transition: 0.3s;
 }
-a{
+header a{
     text-decoration: none;
     color: #005eb8;
 }
-li:active {
+header li:active {
  transform: scale(0.95);
 }
 
