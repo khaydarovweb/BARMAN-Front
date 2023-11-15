@@ -3,6 +3,7 @@ import './header.css';
 import { default as CartBtn } from './cartIcon/cart';
 import { default as ProfileBtn } from './perofileIcon/profile';
 import { LogoNoBg } from '../../imgs/index';
+import { Link } from 'react-router-dom';
 
 class Header extends Component {
 	render() {
@@ -10,9 +11,15 @@ class Header extends Component {
 			<header>
 				<img src={LogoNoBg} alt="" className="logoImg" />
 				<ul>
-					<li>Home</li>
-					<li>Menu</li>
-					<li>Products</li>
+					<li>
+						<Link to="/">Home</Link>
+					</li>
+					<li>
+						<Link to="/menu">Menu</Link>
+					</li>
+					<li>
+						<Link to="/products">Products</Link>
+					</li>
 				</ul>
 				<span className="NavBarBtns">
 					<button className="">

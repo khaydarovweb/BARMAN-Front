@@ -1,25 +1,27 @@
 import React from 'react';
 import { default as HomePage } from './components/home/index';
-// import {
-// 	Route,
-// 	RouterProvider,
-// 	createBrowserRouter,
-// 	createRoutesFromElements,
-// } from 'react-router-dom';
+import { default as ProductsPage } from './components/products/main';
+import { Route, BrowserRouter as Router, Routes } from 'react-router-dom';
 
 // const router = createBrowserRouter(
-// 	createRoutesFromElements(
-// 		<Route path="/" element={<HomePage />}>
-// 			<Route index element={<HomePage />} />
-// 			<Route path="about" element={<Sec2 />} />
-// 			<Route path="products" element={<Sec3 />}></Route>
-// 		</Route>
-// 	)
+//   createRoutesFromElements(
+//     <Route path="/" element={<HomePage />}>
+//       <Route index element={<ProductsPage />} />
+//       <Route path="/products" element={<ProductsPage />} />
+//     </Route>
+//   )
 // );
+
 function App() {
 	return (
-		<HomePage/>
-	)
+		<Router>
+			<Routes>
+				  <Route path="/" element={<HomePage />} />
+					<Route index element={<HomePage />} />
+					<Route path="/products" element={<ProductsPage />} />
+			</Routes>
+		</Router>
+	);
 }
 
 export default App;
