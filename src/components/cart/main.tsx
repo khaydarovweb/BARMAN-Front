@@ -21,8 +21,7 @@ export default class CartPage extends Component<{}, CartPageState> {
             quantity: 1,
             totalPrice: 30.99,
             products: [
-                { name: 'Modern Poster', price: 30.99 } // Örnek bir ürün
-                // Diğer ürünler buraya eklenebilir
+                { name: 'Modern Poster', price: 30.99 } 
             ],
             promoCode: '',
         };
@@ -31,7 +30,7 @@ export default class CartPage extends Component<{}, CartPageState> {
     handleIncrement = () => {
         this.setState(prevState => ({
             quantity: prevState.quantity + 1,
-            totalPrice: (prevState.quantity + 1) * prevState.products[0].price // Sadece bir ürün olduğu varsayıldı
+            totalPrice: (prevState.quantity + 1) * prevState.products[0].price 
         }));
     };
 
@@ -39,17 +38,18 @@ export default class CartPage extends Component<{}, CartPageState> {
         if (this.state.quantity > 1) {
             this.setState(prevState => ({
                 quantity: prevState.quantity - 1,
-                totalPrice: (prevState.quantity - 1) * prevState.products[0].price // Sadece bir ürün olduğu varsayıldı
+                totalPrice: (prevState.quantity - 1) * prevState.products[0].price 
             }));
         }
     };
 
     handleAddPromo = () => {
         if (this.state.promoCode === '50promo') {
-            const discount = this.state.totalPrice * 0.1; // Toplam fiyattan %10 indirim
+            const discount = this.state.totalPrice * 0.1; 
             this.setState(prevState => ({
                 totalPrice: prevState.totalPrice - discount,
             }));
+			
         }
     };
 
