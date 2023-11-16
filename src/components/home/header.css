@@ -5,7 +5,7 @@ header {
  align-items: center;
  justify-content: space-between;
  padding: 20px 100px 20px 100px;
- background-color:  #dee9f1;
+ background-color:  #f0f8ff;
  color: #005eb8;
 }
 
@@ -28,7 +28,7 @@ li {
  cursor: pointer;
  transition: 0.3s;
 }
-a{ 
+a{
     text-decoration: none;
     color: #005eb8;
 }

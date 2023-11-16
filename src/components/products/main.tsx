@@ -1,5 +1,20 @@
-interface MainProps {}
+import React, { Component } from 'react';
+import './main.css';
+import { Sidebar } from './sideBar/category';
+import { default as Header } from '../home/header';
 
-const ProductsPage = (props: MainProps) => <h1>product Page</h1>
-
-export default ProductsPage;
+export default class Main extends Component {
+	render() {
+		return (
+			<section className="ProductPage">
+				<Header />
+				<main>
+					<Sidebar />
+					<div className="Main">
+						<h2>Hello World</h2>
+					</div>
+				</main>
+			</section>
+		);
+	}
+}

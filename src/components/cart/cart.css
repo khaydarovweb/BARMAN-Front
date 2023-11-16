@@ -1,0 +1,158 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.box{
+   width: 1000px;
+   height: 640px;
+   background-color: aqua;
+   display: contents;
+}
+.h5la{
+  width: 100%;
+  height: 70px;
+  /* background-color: red; */
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #617d98;
+}
+h5{
+    color: #617d98;
+    font-size: 16px;
+    padding: 10px;
+}
+.product{
+    width: 100%;
+    height: 200px;
+    border-bottom: 1px solid #617d98;
+    display: grid;
+}
+.productt2{
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+.rasm{
+   width: 200px;
+   height: 180px;
+   background-color: #617d98;
+   margin: 10px;
+}
+.pla{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.plusminus{
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+}
+.plus{
+    cursor: pointer;
+}
+.minus{
+    cursor: pointer;
+}
+.buttons{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.cont{
+    width: 200px;
+    height: 30px;
+    border-radius: 5px;
+    border:white ;
+    background-color: #ab7a5f;
+    color: white;
+    font-size: 14px;
+}
+.clear{
+    width: 200px;
+    height: 30px;
+    border-radius: 5px;
+    border:white ;
+    background-color: black;
+    color: white;
+    font-size: 14px;
+}
+.check{
+    width: 500px;
+    height: 250px;
+    /* background-color: red; */
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    border: 1px solid black;
+}
+.texts{
+    width: 300px;
+    height: 70px;
+    border-bottom: 1px solid #617d98;
+}
+.text1{
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+.text2{
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+.ordert{
+    display: flex;
+    justify-content: space-between;
+}
+.sub{
+    font-size: 20px;
+}
+.orderr{
+    font-size: 20px;
+}
+.login{
+    width: 500px;
+    height: 30px;
+    margin: 10px;
+    background-color: #ab7a5f;
+    border: white;
+    color: white;
+    font-size: 20px;
+}
+.delb{
+    width: 100px;
+    height: 30px;
+    background-color: brown;
+    color: white;
+    border-radius: 5px;
+    border: none;
+}
+.promooo{
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+input{
+    width: 300px;
+    height: 50px;
+    padding: 20px;
+}
+.promokodl{
+    padding: 5px;
+}
+h2{
+    padding: 20px;
+}
+.addbtn{
+    width: 100px;
+    height: 50px;
+    border: white;
+    background-color: brown;
+    color: white;
+}
+.addbtn:hover{
+    background-color: green;
+    color: white;
+}
