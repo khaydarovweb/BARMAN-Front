@@ -40,7 +40,7 @@ export default class Products extends Component<ProductsProp> {
 			<div className="Products">
 				{this.props.products.map((product) =>
 					product.drinks.map((drink) => (
-						<Card id={drink.id} name={drink.name} image={drink.image} stock={drink.stock} />
+						<Card id={drink.id} name={drink.name} image={drink.image} stock={drink.stock} price={drink.price}/>
 					))
 				)}
 			</div>

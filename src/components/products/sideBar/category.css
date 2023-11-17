@@ -1,6 +1,6 @@
 .Sidebar {
-	width: 250px;
-	height: 900px;
+	width: max-content;
+	height: max-content;
 	background-color: white;
 	display: flex;
 	flex-direction: column;
@@ -15,7 +15,8 @@
 	font-weight: 600;
 	font-size: 28px;
 	letter-spacing: 2px;
-	padding-bottom: 20px;
+	padding: 0px 0px 20px 0px;
+	margin: 0px;
 }
 
 .Category ul {
@@ -38,6 +39,7 @@
 	border-radius: 10px;
 	background-color: aliceblue;
 	font-size: 18px;
+	width: 230px;
 }
 
 .FilterColors ul {
@@ -50,7 +52,7 @@
 
 .FilterColors li {
 	width: 20px;
-	height: 17px;
+	height: 20px;
 	border-radius: 50px;
 }
 
@@ -94,4 +96,14 @@
 	border: 0px;
 	font-size: 15px;
 	cursor: pointer;
+}
+
+.FilterPrice input {
+	width: 200px;
+	padding: 0px;
+	margin: 0px;
+}
+
+.clearFilter {
+	width: 200px;
 }

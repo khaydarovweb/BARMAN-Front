@@ -1,18 +1,25 @@
 .card {
-	width: 250px;
-	height: 360px;
+	width: 350px;
+	height: 600px;
 	padding: 0.8em;
 	background: #fff;
 	position: relative;
 	overflow: visible;
+	transition: 0.3s ease;
 	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
 }
 
 .card-img {
-	height: 70%;
+	height: 100%;
 	width: 100%;
 	border-radius: 0.5rem;
-	transition: 0.3s ease;
+	overflow: hidden;
+}
+
+.card-img img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
 }
 
 .card-info {
@@ -55,8 +62,8 @@ svg {
 }
 
 /*Hover*/
-.card-img:hover {
-	transform: translateY(-5%);
+.card:hover {
+	transform: translateY(-2%);
 	cursor: pointer;
 	box-shadow: #005eb8 0px 13px 47px -5px, #f0f8ff 0px 8px 16px -8px;
 }
@@ -65,4 +72,8 @@ svg {
 	border: 1px solid #005eb8;
 	background-color: #005eb8;
  color: #fff;
+}
+
+.stock-num {
+	color: rgb(43, 224, 55);
 }

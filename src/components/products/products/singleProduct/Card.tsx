@@ -41,9 +41,10 @@ export default function Card(props: Drink) {
 			<div className="card-info">
 				<p className="text-title">{props.name}</p>
 				<p className="text-body">{props.brand}</p>
+				<p className="stock-num">In Stock: {props.stock}</p>
 			</div>
 			<div className="card-footer">
-				<span className="text-title">{props.price}</span>
+				<span className="text-title">${props.price}</span>
 				<div className="card-button">
 					<CartIcon />
 				</div>
